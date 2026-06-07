@@ -78,7 +78,7 @@ ol {
   position: relative;
   min-width: 711px;
   height: 386px;
-  margin-bottom: 13px;
+  margin-bottom: 18px;
 }
 
 .result__video {
@@ -103,7 +103,7 @@ ol {
 .search-form__fieldset-title {
   font-size: 18px;
   font-weight: 400;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .search-form__label {
@@ -131,16 +131,14 @@ ol {
   border-top: 1px solid #FFF;
   border-bottom: 1px solid #FFF;
   background-color: transparent;
-  color: inherit;
+  color: #FFF;
   appearance: none;
-  font-size: inherit;
-  font-weight: inherit;
-}
-
-.search-form__textfield::placeholder {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: 400;
+}
+
+.search-form__textfield::placeholder {
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -211,6 +209,7 @@ ol {
 
 .content__details {
   width: 100%;
+
 }
 
 .content__details .title {
@@ -219,7 +218,7 @@ ol {
   font-weight: 700;
   text-transform: uppercase;
   line-height: 94%;
-  margin: -5px 0 24px 0;
+  margin-bottom: 24px;
 }
 
 .content__accent {
@@ -231,8 +230,8 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  max-width: 100%;
   height: 298px;
-  overflow-x: hidden;
   overflow-y: auto;
   padding: 0 3px;
   box-sizing: content-box;
@@ -289,6 +288,7 @@ ol {
 
 .content__video-card-description-container {
   flex-grow: 1;
+  max-width: 196px;
   padding-top: 1px;
 }
 
