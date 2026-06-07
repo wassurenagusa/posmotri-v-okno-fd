@@ -69,6 +69,7 @@ ol {
 .content {
   display: flex;
   max-width: 1440px;
+  width: 100%;
   justify-content: center;
   align-items: flex-end;
   gap: 30px;
@@ -293,6 +294,7 @@ ol {
 }
 
 .content__video-card-title {
+  max-width: 194px;
   padding-bottom: 7px;
   text-overflow: ellipsis;
   overflow: hidden;
